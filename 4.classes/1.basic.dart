@@ -12,6 +12,7 @@ class Person extends Object {
   int _age = 30;
   String _phoneNum;
 
+  // UnNamed constructor
   // Person(String name, bool male) {
   //   this._name = name;
   //   this.male = male;
@@ -67,7 +68,7 @@ class Person extends Object {
 }
 
 main(List<String> args) {
-  //Cascade notation
+  //Cascade notation, "new" is optional.
   var alice = Person('Alice', false)
     ..gender = '女'
     ..age = 30
